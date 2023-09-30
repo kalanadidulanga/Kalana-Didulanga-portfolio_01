@@ -799,7 +799,7 @@ button {
 }
 
 .tf__about_text p {
-    margin-bottom: 95px;
+    margin-bottom: 50px;
 }
 
 .tf__about_img {
@@ -837,14 +837,15 @@ button {
 }
 
 .tf__about_img_text i {
-    width: 65px;
-    height: 65px;
+    width: 45px;
+    height: 45px;
     text-align: center;
-    line-height: 65px;
+    line-height: 45px;
     background: #fff1;
     border-radius: 50%;
-    font-size: 40px;
-    margin-right: 10px;
+    font-size: 25px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 .tf__about_img_text h4 {
