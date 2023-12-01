@@ -347,6 +347,14 @@
                 <div class="col-xl-6 col-lg-6">
                     <div class="tf__design_form">
                         <h2 class="has-animation">GET TOUCH ME?</h2>
+                        <!-- <form action="https://formspree.io/f/xeqbpavq" method="POST">
+                            <input class="" type="text" placeholder="Your Name" name="name" required>
+                            <input class="" type="email" placeholder="Your Email" name="email" required>
+                            <input class="" type="text" placeholder="Phone Number" name="mobile" required>
+                            <textarea class="" rows="4" placeholder="Message" name="message" required></textarea>
+                            <button type="submit" class="common_btn">submit now</button>
+                        </form> -->
+                        
                         <form action="https://formspree.io/f/xeqbpavq" method="POST">
                             <input class="" type="text" placeholder="Your Name" name="name" required>
                             <input class="" type="email" placeholder="Your Email" name="email" required>
