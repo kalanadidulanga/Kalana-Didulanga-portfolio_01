@@ -21,15 +21,16 @@ use PHPMailer\PHPMailer\Exception;
 $error = '';
 
 if (empty($name) || empty($email) || empty($mobile) || empty($message)) {
-    $error = 'Empty found';
+    $error = 'Empty_found';
 }
 
 if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-    $error = 'Invalid Email';
+    $error = 'Invalid_Email';
 }
 
 if (!empty($error)) {
-    echo "Errors- " . $error;
+    // echo "Errors- " . $error;
+    header("Location: index.html?$error");
     exit();
 }
 
